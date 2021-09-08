@@ -1,0 +1,32 @@
+svg{
+  background:url('https://sun9-65.userapi.com/impf/POZOCALd2cHcPQIFWucja_kJNnYBmMrSi086ng/0WP1a4jNhH0.jpg?size=640x854&quality=96&proxy=1&sign=50caa7d7b11211f50c64b872cfa3ce57&type=album');
+  height: 68vh;
+  width: 50vw;
+  margin-top:10%;
+  background-size:cover;
+  border: 1px solid gray;
+  @media (max-width: 800px) {
+    height: 60vh;
+    width: 60vw;
+  }
+  @media (max-width: 700px) {
+    width: 75vw;
+  }
+  @media (max-width: 570px) {
+    width: 90vw;
+  }
+}
+
+text{
+  font-size:70px;
+  transition:font-size .4s ease-out;
+  font-weight:800;
+  font-family:arial;
+  @media (max-width: 880px) {
+    font-weight:700;
+  }
+}
+svg:hover text{
+  transition:font-size .4s ease-in;
+  font-size: 3000px;
+}

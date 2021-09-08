@@ -1,0 +1,32 @@
+.skils {
+    background: #E3DFD2;
+    display:flex;
+    overflow-y: hidden;
+    &_img {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        img {
+            margin-top: 5px;
+            width: 46px;
+        }
+    }
+    &_text {
+       padding: 0;
+        margin-left: 15px;
+        h3 {
+            color: rgb(74, 68, 80);
+        }
+        &_main {
+            border-bottom: 1px solid black;
+            h2 {
+                color: rgb(74, 68, 80);
+            }
+        }
+        &_labs {
+            
+            border-bottom: 1px solid black;
+        }
+    }
+}

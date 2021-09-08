@@ -1,0 +1,45 @@
+//Variables
+$screen-sm: 576px;
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+
+$screen-s-max: 575px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 49px;
+  background:#212;
+}
+.content {
+  flex-grow: 1;
+  background: #E3DFD2;
+  width: 100vw;
+  height: calc(100vh - 49px);
+}
+.start {
+ padding-left: 5%;
+} 
+
+
+
