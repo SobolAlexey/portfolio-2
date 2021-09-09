@@ -19,6 +19,16 @@ svg{
     height: 55vh;
     width: 90vw;
   }
+ 
+  @media (min-height: 768px) {
+    height: 44vh;
+    width: 85vw;
+  }
+  @media (min-height: 1200px) {
+    height: 36vh;
+    width: 85vw;
+  }
+ 
 }
 
 text{
@@ -32,5 +42,5 @@ text{
 }
 svg:hover text{
   transition:font-size .4s ease-in;
-  font-size: 3000px;
+  font-size: 300000px;
 }
